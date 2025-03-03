@@ -1,0 +1,8 @@
+beautifulsoup4  #Web scrapping
+requests        #To access the web tags and data
+# sqlite3  
+pandas  # For data analysis
+matplotlib  # For visualization (optional)
+numpy  # For numerical operations
+selenium
+scikit-learn

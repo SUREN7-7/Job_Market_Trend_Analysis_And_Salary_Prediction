@@ -1,0 +1,31 @@
+📂 Job_Market_Analysis/
+│── 📂 data/
+│   ├── raw/                 # Original dataset from Kaggle
+│   ├── processed/           # Cleaned and preprocessed dataset
+│   ├── sqlite_db/           # SQLite database files
+│
+│── 📂 notebooks/
+│   ├── 01_data_exploration.ipynb  # Initial dataset exploration
+│   ├── 02_data_cleaning.ipynb     # Data preprocessing
+│   ├── 03_eda_visualization.ipynb # Exploratory Data Analysis (EDA)
+│   ├── 04_ml_modeling.ipynb       # Salary prediction ML models
+│
+│── 📂 src/
+│   ├── data_loader.py      # Load & preprocess data
+│   ├── db_handler.py       # Interact with SQLite database
+│   ├── eda.py              # Functions for data visualization
+│   ├── model_trainer.py    # Train ML models for salary prediction
+│   ├── model_evaluation.py # Evaluate and optimize models
+│
+│── 📂 reports/
+│   ├── figures/            # Plots & graphs from EDA
+│   ├── power_bi/           # Power BI dashboard files
+│   ├── insights.txt        # Key findings from analysis
+│
+│── 📂 deployment/
+│   ├── api/                # Flask/FastAPI code (optional)
+│   ├── streamlit_app.py    # Streamlit dashboard (optional)
+│
+│── 📜 README.md            # Project overview & setup instructions
+│── 📜 requirements.txt      # Dependencies list
+│── 📜 .gitignore           # Ignore unnecessary files in version control
