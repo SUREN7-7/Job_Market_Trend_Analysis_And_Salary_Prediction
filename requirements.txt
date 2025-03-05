@@ -4,5 +4,6 @@ requests        #To access the web tags and data
 pandas  # For data analysis
 matplotlib  # For visualization (optional)
 numpy  # For numerical operations
-selenium
 scikit-learn
+seaborn
+dill
